@@ -26,13 +26,15 @@ main{
 
 label{
     display: block;
-    margin: 0.6rem;
+    margin: 0.6rem 0;
 }
 
 .full-width, select{
     width: 100%;
     background-color: #975459;
     color: #f6f5f5;
+    padding: 4px;
+    border-radius: 15px;
 }
 
 fieldset{
@@ -51,6 +53,7 @@ textarea{
     width: 100%;
     resize: none;
 }
+
 
 input[type="submit"]{
     margin: auto;   
